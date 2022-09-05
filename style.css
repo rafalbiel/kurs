@@ -14,12 +14,30 @@ body {
     background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
 }
 
+
+
+
 .sans-serif{
     font-family: sans-serif;
+    color: black;
 }
 .monospace{
     font-family: monospace;
+    color: black;
 }
 .cursive{
     font-family: cursive;
+    color: black;
+}
+
+
+
+p{
+    color:gold;
+}
+.small{
+    text-transform: uppercase;
+}
+.text{
+    text-transform: capitalize;
 }
