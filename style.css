@@ -1,25 +1,19 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-size: 36px;
-    height: 100vh;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #045de9;
-    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+	font-family: "Comfortaa", cursive;
+	font-size: 36px;
+	color: #ffffff;
+	background-color: #333;
 }
-
-div {
-    background-color: lime;
+img {
+	width: 800px;
+	border-radius: 25px;
+	display: flex;
+	margin: auto;
 }
-
 p {
-    background-color: gold;
+	color: lime;
 }
-
-span {
-    background-color: tomato;
+.tomato {
+	color: tomato;
+	text-decoration: underline;
 }
