@@ -1,19 +1,34 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 body {
-	font-family: "Comfortaa", cursive;
-	font-size: 36px;
-	color: #ffffff;
+	color: #fff;
 	background-color: #333;
 }
-img {
-	width: 800px;
-	border-radius: 25px;
-	display: flex;
-	margin: auto;
+
+.box-1{
+	width: 400px;
+	height: 400px;
+	background-color: gold;
 }
-p {
-	color: lime;
+.circle{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-color:rgba(255, 0, 0, 0.3);
+	position: fixed;
+	left: 0px;
+	top: 0px;
 }
-.tomato {
-	color: tomato;
-	text-decoration: underline;
+.box-2{
+	max-width: 800px;
+	min-width: 500px;
+	width: 100%;
+	height: 200px;
+	background-color: lime;
+}
+.box-3{
+	
 }
